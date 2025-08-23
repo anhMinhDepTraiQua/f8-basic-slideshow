@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="./slideshow.css">
+
+<body>
+    <div class="slideshow">
+        <div class="nav">
+            <button class="prev">Prev</button>
+            <button class="next">Next</button>
+        </div>
+        <div class="track">
+            <div class="slide-item">
+                <img src="/hinhanh/banner1.jpg" alt="Image 1">
+            </div>
+            <div class="slide-item">
+                <img src="/hinhanh/banner2.jpg" alt="Image 2">
+            </div>
+            <div class="slide-item">
+                <img src="/hinhanh/banner3.jpg" alt="Image 3">
+            </div>
+            <div class="slide-item">
+                <img src="/hinhanh/banner4.png" alt="Image 4">
+            </div>
+        </div>
+    </div>
+    <div class="checklist" style="display: flex;flex-direction: column;">
+        <label><input type="checkbox" name="" checked>Slide tự động chuyển </label>
+        <label><input type="checkbox" name="" checked>loop vô hạn</label>
+        <label><input type="checkbox" name="" checked>hover vào thì stop</label>
+        <label><input type="checkbox" name="">pagination: luôn active ở slide-item hiện tại, click vào page cho phép
+            chuyển tới slide-item tương ứng</label>
+    </div>
+</body>
+<script src="./slideshow.js"></script>
+
+</html>
