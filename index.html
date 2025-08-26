@@ -5,38 +5,157 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="slideshow.css">
+
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://cdn.jsdelivr.net/npm/segoe-fonts@1.0.1/segoe-fonts.min.css" rel="stylesheet">
 </head>
-<link rel="stylesheet" href="./slideshow.css">
+
+
 
 <body>
-    <div class="slideshow">
-        <div class="nav">
-            <button class="prev">Prev</button>
-            <button class="next">Next</button>
-        </div>
-        <div class="track">
-            <div class="slide-item">
-                <img src="./hinhanh/banner1.jpg" alt="Image 1">
-            </div>
-            <div class="slide-item">
-                <img src="./hinhanh/banner2.jpg" alt="Image 2">
-            </div>
-            <div class="slide-item">
-                <img src="./hinhanh/banner3.jpg" alt="Image 3">
-            </div>
-            <div class="slide-item">
-                <img src="./hinhanh/banner4.png" alt="Image 4">
+    <div class="container">
+        <div class="prev-btn"><i class="fa-solid fa-angle-left"></i></div>
+        <div class="next-btn"><i class="fa-solid fa-angle-right"></i></div>
+        <div class="slide-wrapper">
+            <div class="slide">
+                <div class="slide-item">
+                    <div class="slide-left">
+                        <p class="slide-title"><a href="#">Mở bán khóa JavaScript Pro</a> <img class="king-icon"
+                                src="./hinhanh/crown-icon.svg" alt=""></p>
+                        <p class="slide-desc">
+                            Từ 08/08/2024 khóa học sẽ có giá 1.399k. Khi khóa học hoàn thiện sẽ trở về giá gốc.
+                        </p>
+                        <div class="button btn8a0aff">
+                            <a href="https://javascript.fullstack.edu.vn/" target="_blank">HỌC THỬ MIỄN PHÍ</a>
+                        </div>
+                    </div>
+                    <div class="slide-right">
+                        <a href="https://javascript.fullstack.edu.vn/" target="_blank">
+                            <img src="./hinhanh/bn1.png" alt="slide img">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="slide-item">
+                    <div class="slide-left">
+                        <p class="slide-title">Học HTML CSS cho người mới <img class="king-icon"
+                                src="./src/img/king-icon.svg" alt=""></p>
+                        <p class="slide-desc">
+                            Thực hành dự án với Figma, hàng trăm bài tập, hướng dẫn 100% bởi Sơn Đặng, tặng kèm
+                            Flashcards,
+                            v.v.
+                        </p>
+                        <div class="button btn6828fa"><a href="https://fullstack.edu.vn/landing/htmlcss"
+                                target="_blank">HỌC THỬ MIỄN
+                                PHÍ</a></div>
+                    </div>
+                    <div class="slide-right">
+                        <a href="https://files.fullstack.edu.vn/f8-prod/banners/20/68010e5598e64.png" target="_blank">
+                            <img src="./hinhanh/bn2.png" alt="slide img">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="slide-item">
+                    <div class="slide-left">
+                        <p class="slide-title">Học ReactJS Miễn Phí!</p>
+                        <p class="slide-desc">
+                            Khóa học ReactJS từ cơ bản tới nâng cao. Kết quả của khóa học này là bạn có thể làm hầu hết
+                            các
+                            dự
+                            án thường gặp với ReactJS.
+                        </p>
+                        <div class="button btn2877FA"><a href="https://fullstack.edu.vn/courses/reactjs?ref=banner"
+                                target="_blank">ĐĂNG KÝ NGAY</a></div>
+                    </div>
+                    <div class="slide-right">
+                        <a href="https://fullstack.edu.vn/courses/reactjs?ref=banner" target="_blank">
+                            <img src="./hinhanh/bn3.png" alt="slide img">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="slide-item">
+                    <div class="slide-left">
+                        <p class="slide-title">Thành Quả của Học Viên</p>
+                        <p class="slide-desc">
+                            Để đạt được kết quả tốt trong mọi việc ta cần xác định mục tiêu rõ ràng cho việc đó. Học lập
+                            trình
+                            cũng không là ngoại lệ.
+                        </p>
+                        <div class="button btn7612ff"><a
+                                href="https://fullstack.edu.vn/blog/tong-hop-cac-san-pham-cua-hoc-vien-tai-f8.html"
+                                target="_blank">XEM THÀNH QUẢ</a></div>
+                    </div>
+                    <div class="slide-right">
+                        <a href="https://fullstack.edu.vn/blog/tong-hop-cac-san-pham-cua-hoc-vien-tai-f8.html"
+                            target="_blank">
+                            <img src="./hinhanh/bn4.png" alt="slide img">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="slide-item">
+                    <div class="slide-left">
+                        <p class="slide-title">F8 trên Youtube</p>
+                        <p class="slide-desc">
+                            F8 được nhắc tới ở mọi nơi, ở đâu có cơ hội việc làm cho nghề IT và có những con người yêu
+                            thích
+                            lập
+                            trình F8 sẽ ở đó.
+                        </p>
+                        <div class="button btnfe215e"><a href="https://www.youtube.com/channel/UCNSCWwgW-rwmoE3Yc4WmJhw"
+                                target="_blank">ĐĂNG KÝ
+                                KÊNH</a></div>
+                    </div>
+                    <div class="slide-right">
+                        <a href="https://www.youtube.com/channel/UCNSCWwgW-rwmoE3Yc4WmJhw" target="_blank">
+                            <img src="./hinhanh/bn5.png" alt="slide img">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="slide-item">
+                    <div class="slide-left">
+                        <p class="slide-title">F8 trên Facebook</p>
+                        <p class="slide-desc">
+                            F8 được nhắc tới ở mọi nơi, ở đâu có cơ hội việc làm cho nghề IT và có những con người yêu
+                            thích
+                            lập
+                            trình F8 sẽ ở đó.
+                        </p>
+                        <div class="button btn007efe"><a href="https://www.facebook.com/f8vnofficial"
+                                target="_blank">THAM
+                                GIA
+                                NHÓM</a></div>
+                    </div>
+                    <div class="slide-right">
+                        <a href="https://www.facebook.com/f8vnofficial" target="_blank">
+                            <img src="./hinhanh/bn6.png" alt="slide img">
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    <div class="checklist" style="display: flex;flex-direction: column;">
-        <label><input type="checkbox" name="" checked>Slide tự động chuyển </label>
-        <label><input type="checkbox" name="" checked>loop vô hạn</label>
-        <label><input type="checkbox" name="" checked>hover vào thì stop</label>
-        <label><input type="checkbox" name="">pagination: luôn active ở slide-item hiện tại, click vào page cho phép
-            chuyển tới slide-item tương ứng</label>
-    </div>
+    <ul class="slice-pagination">
+        <li class="active"></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+
+    <script src="./slideshow.js"></script>
+
+
 </body>
-<script src="./slideshow.js"></script>
 
 </html>
